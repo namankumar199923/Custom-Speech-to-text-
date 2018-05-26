@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:id="@+id/slidelinearlayout"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="ENTERTAINMENT WORLD"
+        android:textColor="#fff"/>
+    <ImageView
+        android:layout_width="200dp"
+        android:id="@+id/slideimg"
+        android:layout_height="200dp" />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Text here"
+    android:id="@+id/texttitle"
+    android:textColor="#fff"
+    android:textSize="30sp"
+    android:textStyle="bold"
+    android:layout_marginTop="40dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:textColor="#fff"
+        android:text="description here"
+        android:id="@+id/textdesc"
+        android:layout_marginTop="40sp"
+        />
+
+    <Button
+        android:id="@+id/startnew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="continue to entertainment world" />
+</LinearLayout>

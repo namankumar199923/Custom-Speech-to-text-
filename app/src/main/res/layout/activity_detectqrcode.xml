@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b2"
+    tools:context=".detectqrcode">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:background="#ff00ff"
+        android:padding="5dp"
+        android:text="Create Your Location QR Code"
+        android:textSize="25dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:hint="write text here"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="111dp"
+        android:id="@+id/edittext"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/generateqrcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="75dp"
+        android:text="Generate your location  qr code"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/findyourlocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="210dp"
+        android:text="Track your location"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:id="@+id/naman"
+        android:text="upload"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="137dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="137dp" />
+
+    <Button
+        android:id="@+id/generateqr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="183dp"
+        android:text="generate qr code"
+        android:layout_marginLeft="103dp"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/slider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="143dp"
+        android:text="add your vedio here" />
+
+
+
+
+
+
+
+</RelativeLayout>
